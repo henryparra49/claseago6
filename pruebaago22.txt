@@ -1,0 +1,271 @@
+Estudiante@CorpoSala13-PC MINGW64 ~
+$ git ini
+git: 'ini' is not a git command. See 'git --help'.
+
+The most similar commands are
+        init
+        gui
+        init-db
+
+Estudiante@CorpoSala13-PC MINGW64 ~
+$ git  status
+fatal: not a git repository (or any of the parent directories): .git
+
+Estudiante@CorpoSala13-PC MINGW64 ~
+$ git config --global user.name "Henry Parra"
+
+Estudiante@CorpoSala13-PC MINGW64 ~
+$ git config --global user.email henry_parra@hotmail.com
+
+Estudiante@CorpoSala13-PC MINGW64 ~
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslbackend=schannel
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+user.name=Henry Parra
+user.email=henry_parra@hotmail.com
+
+Estudiante@CorpoSala13-PC MINGW64 ~
+$ git clone https://github.com/henryparra49/claseago6.git
+Cloning into 'claseago6'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Estudiante@CorpoSala13-PC MINGW64 ~
+$ dir
+aenima_by_sullivan-d4ixe7j.png
+Anime-trees-art-wallpaper-hd-1080p-2329.jpg
+AppData
+claseago6
+Configuración\ local
+Contacts
+Cookies
+dark_wolf_link_artwork_from_twilight_princess_by_zerjer97-d5u3374.png
+Datos\ de\ programa
+DEAD\ .gif
+Desktop
+Downloads
+Entorno\ de\ red
+Favorites
+Impresoras
+Links
+lovo.png
+Menú\ Inicio
+Mis\ documentos
+Music
+nao.jpg
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001                       .regtrans-ms
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002                       .regtrans-ms
+ntuser.ini
+ntuser.pol
+Pictures
+Plantillas
+Reciente
+Saved\ Games
+Searches
+SendTo
+Videos
+yu.jpg
+
+Estudiante@CorpoSala13-PC MINGW64 ~
+$ cd Music
+
+Estudiante@CorpoSala13-PC MINGW64 ~/Music
+$ cd ..
+
+Estudiante@CorpoSala13-PC MINGW64 ~
+$ cd music
+
+Estudiante@CorpoSala13-PC MINGW64 ~/music
+$ dir
+ciudad.png   luna.jpg      palmeras.jpg    playa.jpg
+desktop.ini  mañana\ .xcf  peresssss.pptx  velero.jpg
+
+Estudiante@CorpoSala13-PC MINGW64 ~/music
+$ cd ..
+
+Estudiante@CorpoSala13-PC MINGW64 ~
+$ cd /d
+
+Estudiante@CorpoSala13-PC MINGW64 /d
+$ dir
+$RECYCLE.BIN                          Curso
+05010136000293\ PRACTICA\ DIEZ.pptx   Documentos
+05010136000293\ PRACTICA\ DOCE.pptx   FULLSTACK
+05010136000293\ PRACTICA\ NUEVE.pdf   gta\ sanandreas
+05010136000293\ PRACTICA\ NUEVE.pptx  henry
+05010136000293\ PRACTICA\ OCHO.pptx   Program
+05010136000293\ PRACTICA\ ONCE.pptx   SLOGAN.jpg
+05010136000293\ PRACTICA\ SEIS.pptx   SLOGAN.xcf
+05010136000293\ PRACTICA\ SIETE.pptx  System\ Volume\ Information
+05010136000293\ PRACTICA\ UNO.pptx
+
+Estudiante@CorpoSala13-PC MINGW64 /d
+$ cd /c
+
+Estudiante@CorpoSala13-PC MINGW64 /c
+$ dir
+$360Section                Documents\ and\ Settings  Program\ Files
+$Recycle.Bin               hiberfil.sys              Program\ Files\ (x86)
+360SANDBOX                 MSOCache                  ProgramData
+Actualizacion\ Nomina\ GW  pagefile.sys              Recovery
+Archivos\ de\ programa     PerfLogs                  System\ Volume\ Information
+C4C209DD1569               Persi0.sys                Users
+dfinstall.log              PROAsistemas              Windows
+
+Estudiante@CorpoSala13-PC MINGW64 /c
+$ cd /d
+
+Estudiante@CorpoSala13-PC MINGW64 /d
+$ dir
+$RECYCLE.BIN                          Curso
+05010136000293\ PRACTICA\ DIEZ.pptx   Documentos
+05010136000293\ PRACTICA\ DOCE.pptx   FULLSTACK
+05010136000293\ PRACTICA\ NUEVE.pdf   gta\ sanandreas
+05010136000293\ PRACTICA\ NUEVE.pptx  henry
+05010136000293\ PRACTICA\ OCHO.pptx   Program
+05010136000293\ PRACTICA\ ONCE.pptx   SLOGAN.jpg
+05010136000293\ PRACTICA\ SEIS.pptx   SLOGAN.xcf
+05010136000293\ PRACTICA\ SIETE.pptx  System\ Volume\ Information
+05010136000293\ PRACTICA\ UNO.pptx
+
+Estudiante@CorpoSala13-PC MINGW64 /d
+$ cd henry
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry
+$ dir
+css  images  index.html  pages  scripts
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry
+$ dir
+css  images  index.html  pages  scripts
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry
+$ git clone https://github.com/henryparra49/claseago6.git
+Cloning into 'claseago6'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry
+$ dir
+claseago6  css  images  index.html  pages  scripts
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry
+$ ls
+claseago6/  css/  images/  index.html  pages/  scripts/
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry
+$ cd claseago6
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry/claseago6 (master)
+$ dir
+README.md
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry/claseago6 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry/claseago6 (master)
+$ dir
+README.md
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry/claseago6 (master)
+$ cd ..
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry
+$ dir
+claseago6  css  images  index.html  pages  scripts
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry
+$ dir
+claseago6  css  images  index.html  pages  scripts
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry
+$ cd claseago6
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry/claseago6 (master)
+$ dir
+css  images  index.html  pages  README.md  scripts
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry/claseago6 (master)
+$ git add .
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry/claseago6 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   css/style.css
+        new file:   index.html
+        new file:   scripts/jvaldes.js
+
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry/claseago6 (master)
+$ git commit -m 'Pruebaago22'
+[master 6ad591a] Pruebaago22
+ 3 files changed, 168 insertions(+)
+ create mode 100644 css/style.css
+ create mode 100644 index.html
+ create mode 100644 scripts/jvaldes.js
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry/claseago6 (master)
+$ git log
+commit 6ad591a78c3b019003aafd24e7e96ae0fa2be0fb (HEAD -> master)
+Author: Henry Parra <henry_parra@hotmail.com>
+Date:   Wed Aug 22 19:42:42 2018 -0500
+
+    Pruebaago22
+
+commit b161b074818b3811d4dd0b45f0c612f199fc671e (origin/master, origin/HEAD)
+Author: henryparra49 <42625979+henryparra49@users.noreply.github.com>
+Date:   Wed Aug 22 19:22:35 2018 -0500
+
+    Initial commit
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry/claseago6 (master)
+$ git remote -v
+origin  https://github.com/henryparra49/claseago6.git (fetch)
+origin  https://github.com/henryparra49/claseago6.git (push)
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry/claseago6 (master)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 1.60 KiB | 547.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To https://github.com/henryparra49/claseago6.git
+   b161b07..6ad591a  master -> master
+
+Estudiante@CorpoSala13-PC MINGW64 /d/henry/claseago6 (master)
+$
